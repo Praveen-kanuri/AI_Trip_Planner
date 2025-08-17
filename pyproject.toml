@@ -7,7 +7,9 @@ name = "ai-trip-planner"
 version = "0.0.1"
 description = "AI Trip Planner app"
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "pandas>=2.3.1",
+]
 
 [tool.setuptools.packages.find]
 where = ["."]
