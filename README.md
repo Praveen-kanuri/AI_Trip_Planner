@@ -132,17 +132,35 @@ This creates a closed-loop reasoning system rather than a single-pass LLM respon
 
 ## 🖥 Running the Application
 
-### 1️⃣ Install dependencies
+### 1️⃣ Install uv (if not installed)
+
+```bash
+pip install uv
+
+#Verify installation:
+uv --version
+
+2️⃣ Initialize Project Environment
+
+#If you have Conda active, deactivate it first:
+conda deactivate
+
+#Create virtual environment using Python 3.10:
+uv python install 3.10
+uv venv env --python 3.10
+#Activate virtual environment (Windows):
+env\Scripts\activate
+
+3️⃣ Install Dependencies
 uv pip install -r requirements.txt
 
-### 2️⃣ Configure environment variables
+4️⃣ Run Streamlit Application
+streamlit run streamlit_app.py
 
-Create a `.env` file with required API keys.
-
-### 3️⃣ Run Streamlit UI
-uv streamlit run streamlit_app.py
-
-
+5️⃣ Run FastAPI Backend (Optional)
+uvicorn main:app --reload --port 8000
+#Backend will be available at:
+http://localhost:8000
 ---
 
 ## 🔬 Engineering Design Principles
