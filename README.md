@@ -132,9 +132,9 @@ This creates a closed-loop reasoning system rather than a single-pass LLM respon
 
 ## 🖥 Running the Application
 
-### 1️⃣ Install uv (if not installed)
+1️⃣ Install uv (if not installed)
 
-```bash
+```bash```
 pip install uv
 
 #Verify installation:
@@ -161,6 +161,7 @@ streamlit run streamlit_app.py
 uvicorn main:app --reload --port 8000
 #Backend will be available at:
 http://localhost:8000
+
 ---
 
 ## 🔬 Engineering Design Principles
