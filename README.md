@@ -56,7 +56,9 @@ This layered separation ensures extensibility and maintainability.
 
 ## 📁 Project Structure
 AI_Trip_Planner/
+
 │
+
 ├── agent/ # LangGraph agent logic
 ├── tools/ # Tool implementations
 ├── config/ # Configuration management
