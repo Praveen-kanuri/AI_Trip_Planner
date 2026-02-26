@@ -60,18 +60,31 @@ AI_Trip_Planner/
 │
 
 ├── agent/ # LangGraph agent logic
+
 ├── tools/ # Tool implementations
+
 ├── config/ # Configuration management
+
 ├── logger/ # Structured logging
+
 ├── exception/ # Custom exceptions
+
 ├── prompt_library/ # Prompt templates
+
 ├── utils/ # Utility functions
+
 ├── notebook/ # Experimental notebooks
+
 │
+
 ├── main.py # Core execution entry point
+
 ├── streamlit_app.py # Interactive UI
+
 ├── pyproject.toml # Project metadata
+
 ├── requirements.txt
+
 └── setup.py
 
 ---
